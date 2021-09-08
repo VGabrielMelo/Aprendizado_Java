@@ -1,6 +1,5 @@
 package Entidades;
 
-import java.util.Scanner;
 
 public class Aluno {
 	private String Nome;
@@ -12,7 +11,7 @@ public class Aluno {
 	private int Idade;
 	private float Média;
 	
-	Scanner scan = new Scanner(System.in);
+	
 	
 	public String getNome() {
 		return Nome;
@@ -36,7 +35,7 @@ public class Aluno {
 		return Nota_Prova;
 	}
 	public void setNota_Prova(float nota_Prova) {
-		this.Nota_Prova = nota_Prova;
+		Nota_Prova = nota_Prova;
 	}
 	public int getMatricula() {
 		return Matricula;

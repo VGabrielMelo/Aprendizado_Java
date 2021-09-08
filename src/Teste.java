@@ -24,7 +24,7 @@ public class Teste {
 		System.out.println("\n");
 		aluno.Aprovação(aluno.getMédia());
 		
-		System.out.println("\n Agora, antes de nosso programa se encerrar, uma curiosidade... Você sabia que ");
+		System.out.print("\n Agora, antes de nosso programa se encerrar, uma curiosidade... Você sabia que ");
 		faculdade.Percentual_pessoas();
 		
 	}

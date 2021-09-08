@@ -35,12 +35,9 @@ public class Faculdade {
 		Num_Funcionários = 24;
 		Num_Alunos = 128;
 		int Total_pessoas = Num_Funcionários + 	Num_Alunos;
-		System.out.println(Total_pessoas);
 		float Percentual_Funcionários = ((Num_Funcionários * 100) / Total_pessoas);	
-		System.out.println(Percentual_Funcionários);
 		float Percentual_Alunos = ((Num_Alunos * 100) / Total_pessoas);
-		System.out.println(Percentual_Alunos);
-		System.out.println("O percentual de Funcionários é de " + Percentual_Funcionários + " % \n" + "Enquanto o percentual de Alunos é de " + Percentual_Alunos + " %, dentro da faculdade");
+		System.out.println("o percentual de Funcionários é de " + Percentual_Funcionários + " % \n" + " enquanto que o percentual de Alunos é de " + Percentual_Alunos + " %, dentro da nossa faculdade?");
 	}
 	
 }
